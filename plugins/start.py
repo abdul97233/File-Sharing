@@ -87,7 +87,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('Aɴɪᴍᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/ntmpro')
+                    InlineKeyboardButton('Main Cʜᴀɴɴᴇʟ', url='https://t.me/ntmpro')
                 ]
             ]
         )

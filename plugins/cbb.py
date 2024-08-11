@@ -9,7 +9,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Dᴇᴠ : <a href='https://t.me/abdul97233'>Abdul</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/ntmchat'>NTM CHAT</a>\n○ DEV Cʜᴀɴɴᴇʟ : <a href='https://t.me/ntmpro'>NTM PRO Cʜᴀɴɴᴇʟ</a>\n○ NTM AI : <a href='https://t.me/NTMAI'>NTM AI</a>\n○ Support group : <a href='https://t.me/NTMCHAT'>ᴄʜᴀᴛ Group</a></b>",
+            text = f"<b>○ Dᴇᴠ : <a href='https://t.me/abdul97233'>Abdul</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/ntmchat'>NTM CHAT</a>\n○ Main Channel : <a href='https://t.me/ntmpro'>NTM PRO</a>\n○ NTM AI : <a href='https://t.me/NTM_AI'>NTM AI</a>\n○ Support group : <a href='https://t.me/NTMCHAT'>NTM CHAT</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [

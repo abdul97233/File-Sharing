@@ -88,6 +88,22 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
                     InlineKeyboardButton('Main Cʜᴀɴɴᴇʟ', url='https://t.me/ntmpro')
+                    pass
+                
+        warning = await message.reply(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\n"
+                                      "ᴛʜɪꜱ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ<b><u>10 ᴍɪɴᴜᴛᴇꜱ</u> 🫥 <i></b>"
+                                      "(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ)</i>.\n\n"
+                                      "<b><i>ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ</i></b>")
+        await asyncio.sleep(600)
+        for sent_msg in filesent:
+            try:
+                await sent_msg.delete()
+            except:
+                pass
+
+        try:
+            await warning.edit("✅ <b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!</b>")
+        except:
                 ]
             ]
         )
